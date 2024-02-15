@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  background-color: yellow;
+}
+header ul {
+  padding: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+}
+header ul li {
+  display: flex;
+  list-style: none;
+  /*changes for hover on menu*/
+}
+header ul li a {
+  text-decoration: none;
+  color: green;
+}
+header ul li a:hover {
+  color: blue;
+  background-color: purple;
+}/*# sourceMappingURL=style.css.map */
